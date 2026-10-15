@@ -1,0 +1,380 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#142b27">
+<meta name="description" content="Westbridge Group Acquisition LLC connects property owners and real estate investors to explore acquisition opportunities.">
+<title>Westbridge Group Acquisition | Real Estate</title>
+<style>
+:root {
+  --green: #142b27;
+  --green2: #203e36;
+  --gold: #c9aa70;
+  --cream: #f7f5ef;
+  --ink: #202a26;
+  --muted: #66716b;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--ink);
+  line-height: 1.7;
+}
+a { color: inherit; }
+header {
+  background: var(--green);
+  color: white;
+  padding: 20px 6%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.brand { text-decoration: none; line-height: 1.3; }
+.brand strong {
+  display: block;
+  letter-spacing: 3px;
+  font-size: 19px;
+}
+.brand span {
+  display: block;
+  color: var(--gold);
+  font-size: 10px;
+  letter-spacing: 2px;
+  margin-top: 6px;
+}
+nav { display: flex; gap: 20px; flex-wrap: wrap; }
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+}
+nav a:hover { color: var(--gold); }
+.hero {
+  background: linear-gradient(125deg, #142b27, #315148);
+  color: white;
+  padding: 95px 7% 100px;
+}
+.hero-inner { max-width: 900px; margin: auto; }
+.eyebrow {
+  color: var(--gold);
+  letter-spacing: 3px;
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+h1 {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: clamp(42px, 8vw, 76px);
+  font-weight: normal;
+  line-height: 1.12;
+  margin: 22px 0;
+  max-width: 780px;
+}
+.hero p {
+  color: #e1e8e3;
+  max-width: 600px;
+  font-size: 17px;
+}
+.actions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 30px; }
+.btn {
+  display: inline-block;
+  padding: 13px 20px;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: bold;
+  border: 1px solid var(--gold);
+  background: var(--gold);
+  color: var(--green);
+}
+.btn.outline { background: transparent; color: white; }
+section { padding: 75px 7%; }
+.wrap { max-width: 1050px; margin: auto; }
+.section-head { max-width: 700px; margin-bottom: 35px; }
+h2 {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: clamp(30px, 5vw, 45px);
+  line-height: 1.2;
+  font-weight: normal;
+  margin: 12px 0 18px;
+}
+.lead { color: var(--muted); font-size: 16px; }
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+}
+.card {
+  border: 1px solid #e5e3db;
+  padding: 27px;
+  background: white;
+}
+.card .number { color: #9b7d48; letter-spacing: 2px; font-size: 12px; }
+.card h3 { font-family: Georgia, serif; font-size: 23px; font-weight: normal; }
+.card p { color: var(--muted); font-size: 14px; }
+.soft { background: var(--cream); }
+.band { background: var(--green); color: white; }
+.band p { color: #dce4df; max-width: 720px; }
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 28px;
+}
+form { display: grid; gap: 12px; margin-top: 20px; }
+label { font-size: 13px; font-weight: bold; }
+input, select, textarea {
+  width: 100%;
+  border: 1px solid #d6d8d1;
+  padding: 12px;
+  border-radius: 0;
+  font: inherit;
+  background: white;
+}
+textarea { min-height: 100px; resize: vertical; }
+button {
+  padding: 14px;
+  border: 0;
+  background: var(--green);
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.small { font-size: 12px; color: var(--muted); }
+footer {
+  background: #0e211d;
+  color: #e0e6e1;
+  padding: 35px 7%;
+  font-size: 12px;
+}
+footer a { color: var(--gold); }
+.footer-inner { max-width: 1050px; margin: auto; }
+.disclaimer { color: #bdc9c1; font-size: 11px; max-width: 850px; }
+@media(max-width: 520px) {
+  header { padding: 18px 5%; }
+  nav { gap: 12px; }
+  nav a { font-size: 12px; }
+  .hero { padding: 70px 6%; }
+  section { padding: 55px 6%; }
+}
+</style>
+</head>
+<body>
+<header>
+  <a class="brand" href="#home" aria-label="Westbridge home">
+    <strong>WESTBRIDGE</strong>
+    <span>GROUP ACQUISITION LLC</span>
+  </a>
+  <nav aria-label="Main navigation">
+    <a href="#approach">Our Approach</a>
+    <a href="#sellers">Property Owners</a>
+    <a href="#investors">Investors</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="hero-inner">
+    <div class="eyebrow">Real Estate Acquisitions & Investor Relations</div>
+    <h1>Connecting Properties With Possibility.</h1>
+    <p>
+      A relationship-driven approach to real estate opportunities.
+      Westbridge Group Acquisition connects with property owners
+      and investors to explore potential acquisitions across Arizona
+      and additional markets.
+    </p>
+    <div class="actions">
+      <a class="btn" href="#sellers">Discuss a Property</a>
+      <a class="btn outline" href="#investors">Investor Inquiries</a>
+    </div>
+  </div>
+</section>
+
+<section id="approach">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">The Westbridge Approach</div>
+      <h2>Professional relationships. Thoughtful opportunities.</h2>
+      <p class="lead">
+        We believe successful real estate transactions begin with
+        clear communication, thoughtful evaluation, and respect for
+        everyone involved.
+      </p>
+    </div>
+    <div class="cards">
+      <article class="card">
+        <div class="number">01 / PROPERTY OWNERS</div>
+        <h3>A direct conversation</h3>
+        <p>Share information about a property and your goals so we can explore whether there may be a fit.</p>
+      </article>
+      <article class="card">
+        <div class="number">02 / INVESTOR NETWORK</div>
+        <h3>Relationships that matter</h3>
+        <p>Connect with us about your acquisition criteria, preferred property types, and target markets.</p>
+      </article>
+      <article class="card">
+        <div class="number">03 / MARKET EXPANSION</div>
+        <h3>Arizona and beyond</h3>
+        <p>We are building relationships across Arizona and exploring opportunities in additional markets.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="soft" id="sellers">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">For Property Owners</div>
+      <h2>Have a property to discuss?</h2>
+      <p class="lead">
+        Tell us a little about the property and how to reach you.
+        We'll use the information to begin a conversation about
+        your situation and possible next steps.
+      </p>
+    </div>
+    <a class="btn" href="#contact">Start a Property Inquiry</a>
+  </div>
+</section>
+
+<section class="band" id="investors">
+  <div class="wrap">
+    <div class="eyebrow">For Buyers & Investors</div>
+    <h2>Let's build the right connections.</h2>
+    <p>
+      We welcome conversations with real estate investors and
+      prospective buyers interested in sharing their purchasing
+      criteria and areas of interest.
+    </p>
+    <a class="btn" href="#contact">Connect With Westbridge</a>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">Get in Touch</div>
+      <h2>Start a conversation.</h2>
+      <p class="lead">
+        Choose the inquiry that best describes your interest.
+        Complete the form and your email app will open with your
+        message prepared for Westbridge.
+      </p>
+    </div>
+    <div class="contact-grid">
+      <div>
+        <h3>Property owner inquiry</h3>
+        <form class="inquiry-form" data-kind="Property Owner">
+          <div>
+            <label for="seller-name">Your name</label>
+            <input id="seller-name" name="Name" required autocomplete="name">
+          </div>
+          <div>
+            <label for="seller-email">Email address</label>
+            <input id="seller-email" name="Email" type="email" required autocomplete="email">
+          </div>
+          <div>
+            <label for="seller-market">Property state</label>
+            <input id="seller-market" name="Property state" placeholder="e.g. Arizona" required>
+          </div>
+          <div>
+            <label for="seller-details">Property details (optional)</label>
+            <textarea id="seller-details" name="Property details"></textarea>
+          </div>
+          <button type="submit">Prepare Property Inquiry</button>
+        </form>
+      </div>
+      <div>
+        <h3>Investor inquiry</h3>
+        <form class="inquiry-form" data-kind="Investor">
+          <div>
+            <label for="investor-name">Your name</label>
+            <input id="investor-name" name="Name" required autocomplete="name">
+          </div>
+          <div>
+            <label for="investor-email">Email address</label>
+            <input id="investor-email" name="Email" type="email" required autocomplete="email">
+          </div>
+          <div>
+            <label for="investor-market">Target market</label>
+            <input id="investor-market" name="Target market" placeholder="City or state">
+          </div>
+          <div>
+            <label for="investor-details">Buying criteria (optional)</label>
+            <textarea id="investor-details" name="Buying criteria"></textarea>
+          </div>
+          <button type="submit">Prepare Investor Inquiry</button>
+        </form>
+      </div>
+    </div>
+    <p class="small">
+      These forms open your device's email app. They do not transmit
+      information automatically. Please avoid including sensitive
+      personal or financial information.
+    </p>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <a class="brand" href="#home">
+      <strong>WESTBRIDGE</strong>
+      <span>GROUP ACQUISITION LLC</span>
+    </a>
+    <p>Real Estate Acquisitions & Investor Relations</p>
+    <p class="disclaimer">
+      Westbridge Group Acquisition LLC is a real estate business.
+      Property inquiries do not constitute an offer, guarantee of
+      purchase, or commitment to transact. Any transaction is subject
+      to due diligence, definitive written agreements, and applicable
+      law. Any assignment or wholesaling activity will be conducted
+      subject to applicable disclosure and licensing requirements.
+      Nothing on this website constitutes legal, tax, or investment advice.
+    </p>
+    <p>© <span id="year"></span> Westbridge Group Acquisition LLC. All rights reserved.</p>
+    <p><a href="mailto:YOUR_BUSINESS_EMAIL_HERE">Contact Westbridge</a></p>
+  </div>
+</footer>
+
+<script>
+/*
+  BEFORE LAUNCH:
+  Replace YOUR_BUSINESS_EMAIL_HERE below with a real email address
+  you control. The address in the footer should match.
+*/
+const BUSINESS_EMAIL = "YOUR_BUSINESS_EMAIL_HERE";
+
+document.getElementById("year").textContent = new Date().getFullYear();
+
+document.querySelectorAll(".inquiry-form").forEach(form => {
+  form.addEventListener("submit", event => {
+    event.preventDefault();
+
+    if (BUSINESS_EMAIL === "YOUR_BUSINESS_EMAIL_HERE") {
+      alert("The website owner needs to add a business email address before inquiries can be sent.");
+      return;
+    }
+
+    const data = new FormData(form);
+    const subject = encodeURIComponent(
+      "Westbridge Website - " + form.dataset.kind + " Inquiry"
+    );
+    const body = encodeURIComponent(
+      Array.from(data.entries())
+        .map(([key, value]) => key + ": " + value)
+        .join("\n")
+    );
+
+    window.location.href =
+      "mailto:" + BUSINESS_EMAIL + "?subject=" + subject + "&body=" + body;
+  });
+});
+</script>
+</body>
+</html>
